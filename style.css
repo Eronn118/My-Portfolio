@@ -1,0 +1,78 @@
+
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.925),rgb(133, 11, 11) ,rgba(3, 33, 85, 0.781));
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+
+        
+}
+
+nav {
+    color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    backdrop-filter: blur(50px);
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #9699a0;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(13, 13, 19, 0.37) ;
+    border: 1.5px solid rgba(34, 32, 32, 0.137);
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.h1{
+   background: #00000070;
+   color: rgb(235, 237, 238);
+   padding: 90px;
+   width: 830px;
+   height: 20px;
+   padding-top: 30px;
+   padding-bottom: 50px;
+   margin-top: 60px;
+   margin-left: 50px;
+   border-radius: 70px;
+   font-size: 50px;
+
+}
+.intro{
+   background: #00000070;
+   color: rgb(235, 237, 238);
+   padding: 50px;
+   width: 500px;
+   margin-top: 60px;
+   margin-left: 400px;
+   border-radius: 50px;
+   font-size: 20px;
+}
