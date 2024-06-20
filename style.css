@@ -4,9 +4,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.925),rgb(133, 11, 11) ,rgba(20, 1, 1, 0.781));
-    background-size: 100% 100vh;
+    background-image: radial-gradient(circle, rgba(2, 4, 22, 0.925),rgb(85, 90, 153) ,rgba(35, 43, 58, 0.781));
+    background-size: 200% 300vh;
     background-repeat: no-repeat;
+    overflow:scroll
    
 
         
@@ -34,7 +35,7 @@ body {
     padding-top: 30px;
     letter-spacing: 2px;
     width: 400px;
-    border-radius: 60px;
+    border-radius: 80px;
     margin-left: 300px;
     margin-top: -320px;
     overflow: auto;
@@ -93,4 +94,32 @@ body {
         transform: translateX(-40px) scale(0.9);
         box-shadow: none;
     }
+}
+.Zoom{
+    width: 300px;
+    height: 250px;
+    overflow:hidden ;
+    margin-top: 300px;
+    border: 3px solid #0303037c;
+    padding: 16px;
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+
+
+.Zoom img{
+   
+    object-fit: cover;
+    transition: transform 0.5s;
+    height: 80%;
+    border-radius: 20px;
+}
+.Zoom:hover img{
+    transform: scale(1.1);
+}
+.Proj{
+    margin-top: 500px;
+    overflow: auto;
 }
