@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: radial-gradient(circle, rgba(2, 4, 22, 0.925), rgb(85, 90, 153), rgba(35, 43, 58, 0.781));
-    background-size: 200% 300vh;
+    background-size: 300% 460vh;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
@@ -17,15 +17,12 @@ body {
 
 .header {
     text-align: center;
+    color: white;
+    margin-left: 30px;
+    
 }
 
-.wel {
-    color: rgba(236, 231, 231, 0.966);
-    margin-top: 20px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-}
+
 
 .content {
     display: flex;
@@ -38,18 +35,19 @@ body {
     background: #00000070;
     color: rgb(235, 237, 238);
     padding: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     border-radius: 30px;
     box-sizing: border-box;
+    
 }
 
 .info, .Skills-content, .educ {
     width: calc(33.33% - 20px);
     margin-top: 20px;
-    
+   
 }
 
-.Proj {
+.Proj{
     width: 100%;
     margin-top: 20px;
 }
@@ -95,8 +93,8 @@ body {
     }
 }
 
-.Zoom, .Crop {
-    width: 100%;
+.Zoom, .Crop, .cert  {
+    width: 95%;
     height: 400px;
     border: 3px solid #0303037c;
     padding: 16px;
@@ -106,7 +104,7 @@ body {
     margin-top: 20px;
 }
 
-.Zoom img, .Crop img {
+.Zoom img, .Crop img, .cert img {
     object-fit: cover;
     transition: transform 0.5s;
     height: 80%;
@@ -114,7 +112,7 @@ body {
     overflow: hidden;
 }
 
-.Zoom:hover img, .Crop:hover img {
+.Zoom:hover img, .Crop:hover img , .cert:hover img{
     transform: scale(1.1);
 }
 
