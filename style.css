@@ -51,11 +51,11 @@ body {
 }
 
 .educ p {
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .moon {
-    background: black;
+    background: rgb(255, 253, 253);
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -66,7 +66,7 @@ body {
 
 .moon::before {
     content: "";
-    background-color: #ffffff;
+    background-color: #000000;
     position: absolute;
     display: block;
     width: 100%;
@@ -156,4 +156,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: #ffff;
+}
+.Skills-content{
+    line-height: 30px;
+    
 }
